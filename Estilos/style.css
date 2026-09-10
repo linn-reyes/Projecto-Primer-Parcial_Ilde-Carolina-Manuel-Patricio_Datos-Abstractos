@@ -1,0 +1,23 @@
+
+.contenedor-titulo {
+  flex-direction: row;     /* Alinea los elementos en una fila */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center;
+  background-color: #030303; /* Color de fondo opcional */
+}
+
+/* Opcional: Estilos para la imagen dentro del título */
+.contenedor-titulo img {
+  width: 250px;           /* Ajusta el tamaño del icono según necesites */
+  height: auto;
+  margin-right: 10px;
+  justify-content: right; /* Centra la imagen horizontalmente */
+}
+
+/* Opcional: Estilos para el texto */
+.contenedor-titulo h1 {
+  margin: 0;              /* Quita márgenes por defecto del h1 */
+  font-size: 2rem;
+  color: #fdfcfc;
+  justify-content: right;
+}
