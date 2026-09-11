@@ -1,23 +1,46 @@
-
+/* Estilos para el contenedor */
 .contenedor-titulo {
-  flex-direction: row;     /* Alinea los elementos en una fila */
-  justify-content: center; /* Centra el contenido horizontalmente */
-  align-items: center;
-  background-color: #030303; /* Color de fondo opcional */
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; /* 3 columnas: izquierda, centro y derecha */
+  align-items: center;                 /* Centra verticalmente ambos elementos */
+  background-color: #07013a;
+  padding: 10px 20px;
 }
 
-/* Opcional: Estilos para la imagen dentro del título */
+/* Estilos para la imagen */
 .contenedor-titulo img {
-  width: 250px;           /* Ajusta el tamaño del icono según necesites */
+  width: 150px;
   height: auto;
-  margin-right: 10px;
-  justify-content: right; /* Centra la imagen horizontalmente */
+  grid-column: 1;                      /* Fuerza a la imagen a ir al extremo izquierdo */
+  justify-self: start;                 /* Se pega completamente al borde izquierdo */
 }
 
-/* Opcional: Estilos para el texto */
+/* Estilos para el Título */
 .contenedor-titulo h1 {
-  margin: 0;              /* Quita márgenes por defecto del h1 */
-  font-size: 2rem;
-  color: #fdfcfc;
-  justify-content: right;
+  grid-column: 2;                      /* Fuerza al texto a ir al centro exacto */
+  margin: 0;
+  color: #ffffff;
+  font-size: 30px;                     /* Tamaño de fuente más grande */
+  text-align: center;                  /* Centra el texto horizontalmente */
+}
+
+/* Estilos para la barra de navegación */
+
+.menu-lateral {
+  display: flex;                         /* Usamos flexbox para alinear los elementos */
+  justify-content: center;               /* Centra los enlaces horizontalmente */
+  background-color: #6c9fff;
+  padding: 10px 0;                       /* Espaciado vertical */
+}
+
+.menu-lateral a {
+  color: #03016d;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.menu-lateral a:hover {
+  text-decoration: underline;
+  color: #fdfcfc;                       /* Cambia el color al pasar el mouse */
 }
