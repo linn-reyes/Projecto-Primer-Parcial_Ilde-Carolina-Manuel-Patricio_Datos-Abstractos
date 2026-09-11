@@ -52,7 +52,9 @@ Abre el archivo `index.html` en tu navegador
 - Estructura semántica de HTML5: Uso constante de etiquetas semánticas como <nav>, <aside>, <header>, <main>, <article>, <section> y <footer>.  
 
 - Navegación y enlaces globales: Implementación de barras de navegación (menu-lateral / MenuLateral) con enlaces directos hacia Inicio (index.html), Discos/Línea (disli.html) y Eventos (evento.html). 
+
 - Elementos multimedia e interactividad: Inclusión de reproducción de audio de fondo con la etiqueta <audio autoplay>, catálogos de tiendas externas con apertura en pestañas independientes (target="_blank"), y scripts interactivos de filtrado por fechas utilizando JavaScript en la sección de eventos.  
+
 - Consistencia de marca e identidad: Uso recurrente del pie de página (footer) con datos institucionales de contacto (correo electrónico, teléfono y dirección) e hipervínculos hacia recursos visuales y hojas de estilo compartidas.  
 
 ## Autores
