@@ -2,7 +2,6 @@
 Nombre: OYENTES DESVELADOS
 
 ### 2. Descripción
-Un párrafo breve explicando qué hace el proyecto y para qué sirve.
 Este es un sitio web dedicado a los oyentes que disfrutan de la música y el entretenimiento nocturno.
 Aquí te explicamos algunos de los géneros que existen, al igual los subgéneros de estos. 
 
