@@ -115,10 +115,10 @@ article.contenedor-musica {
 
 /* Estilos generales del Footer */
 .pie-pagina {
-  background-color: #050126;        /* Tono azul oscuro nocturno */
+  background-color: #07013a;        /* Tono azul oscuro nocturno */
   color: #ffffff;
   padding: 40px 20px 20px 20px;
-  border-top: 2px solid #1a0b70;    /* Línea sutil superior para separarlo */
+  border-top: 2px solid  #07013a;    /* Línea sutil superior para separarlo */
   font-family: Arial, sans-serif;
 }
 
