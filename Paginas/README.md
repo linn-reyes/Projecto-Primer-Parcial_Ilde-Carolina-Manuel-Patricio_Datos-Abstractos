@@ -12,7 +12,7 @@ proyecto/
 ├── images/
 │   ├── imagen1.jpg
 │   ├── imagen2.jpg
-│   └── ...
+│   └── 
 │
 |
 |
