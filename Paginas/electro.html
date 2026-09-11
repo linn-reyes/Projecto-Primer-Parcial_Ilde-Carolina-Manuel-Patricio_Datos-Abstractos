@@ -11,15 +11,20 @@
 </head>
 
 <body>
+    <!-- Musica de fondo -->
     <audio autoplay>
         <source src="../Musica/Daft Punk - Around The World (Official Music Video Remastered).mp3" type="audio/mpeg">
     </audio>
+
     <!--Enlace a la página principal-->
     <!-- Titulo de página -->
-    <h1> <img src="../Imagenes/icon.jpg" alt="Icono de Oyentes Desvelados"> OYENTES DESVELADOS </h1>
+    <div class="contenedor-titulo">
+        <img src="../Imagenes/icon.jpg" alt="Icono de Oyentes Desvelados">
+        <h1>OYENTES DESVELADOS</h1>
+    </div>
 
     <!-- Barra de navegación -->
-    <nav>
+    <nav class="menu-lateral">
         <aside>
             <a href="index.html">Inicio</a>
             <a href="disli.html">Discos/Linea</a>
@@ -181,7 +186,7 @@
                 "Animals" de Martin Garrix
                 <a href="https://youtu.be/gCYcHz2k5x0?si=VcigVTEF866nVhYB" target="_blank">
                     <img src="../Imagenes/animals.webp" alt="Imagen de Martin Garrix">
-                </a> 
+                </a>
                 <br>
                 "Levels" de Avicii
                 <a href="https://youtu.be/wDuoOapZ9Z0?si=AQegrZZkefxrHRpG" target="_blank">
@@ -201,21 +206,23 @@
     </main>
 
     <!-- Pie de página -->
-    <footer>
-        <h3>Contacto</h3>
-        <p>Si tienes alguna pregunta o comentario, no dudes en contactarnos a través de los siguientes medios:</p>
-        <address>
-            <p>Correo electrónico: <a href="mailto:oyedesv098@gmail.com">oyedesv098@gmail.com</a>
-                <br>
-                Teléfono: <a href="tel:+521234567890">+52 123 456 7890</a>
-                <br>
-                Dirección: Ciudad de México, México
-                <br>
-            </p>
-        </address>
-        <p>&copy; 2026 Oyentes Desvelados. Todos los derechos reservados.</p>
-    </footer>
+    <footer class="pie-pagina">
+        <div class="contenido-footer">
+            <h3>Contacto</h3>
+            <p class="subtitulo">Si tienes alguna pregunta o comentario, no dudes en contactarnos:</p>
 
+            <div class="datos-contacto">
+                <p><strong>Correo electrónico:</strong> <a href="mailto:oyedesv098@gmail.com">oyedesv098@gmail.com</a>
+                </p>
+                <p><strong>Teléfono:</strong> <a href="tel:+521234567890">+52 123 456 7890</a></p>
+                <p><strong>Dirección:</strong> Ciudad de México, México</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2026 Oyentes Desvelados. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
