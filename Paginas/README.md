@@ -6,24 +6,29 @@ proyecto/
 │   ├── electro.html
 │   ├── evento.html
 │   ├── pop.html
-│   ├── reg.html  
+│   ├── reg.html 
+|   ├── disli.html
+|   ├── hola.html
+|   ├── hola2.html 
 |   └── rock.html
 │ 
 ├── images/
-│   ├── imagen1.jpg
-│   ├── imagen2.jpg
-│   └── 
+│   └── Contiene 38 images
+│
+├── CSS/ 
+|   ├── electro.css
+|   └── style.css  
 │
 |
 |
 |
 |
 |
-|
-|
-|
-|
-|
+├── Integrantes/ 
+|   ├── Marco Patricio Guiterrez Amor
+|   ├── Manuel Rodriguez Moran
+|   ├── Ilde Rayón Cid
+|   └── Carolina Reyes Pitones
 |
 |
 |
