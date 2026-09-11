@@ -73,10 +73,10 @@ Carolina Reyes Pitones
 
 **Carolina**
 
-- Email: @gmail.com
+- Email: reypit16@gmail.com
 
 **Manuel**
 
-- Email: @gmail.com
+- Email: manumoran212@gmail.com
 
 ---
